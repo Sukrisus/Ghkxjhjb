@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Downloads - MioriPE</title>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"></noscript>
+
+  <style>
+    :root {
+      --primary: #ff003c;
+      --background: #000;
+      --surface: #0a0a0a;
+      --text: #f0f0f0;
+      --muted: #999;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      margin: 0;
+    }
+    header, footer {
+      background: var(--surface);
+      padding: 10px 0px;
+      text-align: center;
+    }
+    header h1, footer {
+      color: var(--primary);
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--primary);
+    }
+    .container {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 30px;
+    }
+    .version {
+      background: #111;
+      border-left: 4px solid var(--primary);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+    .version h3 {
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+    }
+    .btn:hover {
+      background: #cc0030;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MioriPE Downloads</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Download MioriPE Versions</h2>
+
+    <div class="version">
+      <h3>v1.0 (Latest)</h3>
+      <p>Stable release with optimized renderer and UI controls.</p>
+      <a href="https://example.com/mioripe/v1.0/download" class="btn">Download v1.0</a>
+    </div>
+
+    <div class="version">
+      <h3>v0.9</h3>
+      <p>Beta release with experimental shader tweaks.</p>
+      <a href="https://example.com/mioripe/v0.9/download" class="btn">Download v0.9</a>
+    </div>
+
+    <div class="version">
+      <h3>v0.8</h3>
+      <p>Legacy version — limited UI features.</p>
+      <a href="https://example.com/mioripe/v0.8/download" class="btn">Download v0.8</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 MioriPE. All rights reserved.
+  </footer>
+</body>
+</html>
